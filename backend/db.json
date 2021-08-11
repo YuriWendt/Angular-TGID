@@ -8,16 +8,16 @@
     {
       "id": 2,
       "name": "Macbook",
-      "price": 11999
+      "price": 5000
     },
     {
       "id": 3,
       "name": "Celular",
-      "price": 4999.99
+      "price": 1200
     },
     {
       "name": "Notebook",
-      "price": 125.99,
+      "price": 1250,
       "id": 4
     }
   ]
