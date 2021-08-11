@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+
+<div class="container text-center">
+
+  <div class="row m-5">
+    <h4>Caixa</h4>
+  </div>
+
+  <div class="row">
+    <div class="form-group col-md-4">
+      <label for="product-name">Produto</label>
+      <select class="custom-select">
+       <!--  <option class="quant" id="product-name" *ngFor="let products of products" value="product.id"> {{products.name + " " +  "(R$ " + products.price + ")"}}</option> -->
+      </select>
+
+      <label for="product-quantity">Quantidade</label>
+        <!-- <input type="number" class="form-control quant" id="product-quantity" placeholder="Quantidade" name="price" min="0" [(ngModel)]="quantity"> -->
+
+      <label for="product-amount">Valor total</label>
+      <input type="number" class="form-control" id="product-amount" placeholder="Valor total" name="amount" disabled>
+  </div>
+
+  <button class="btn btn-success m-3">
+    Finalizar compra
+  </button>
+</div>

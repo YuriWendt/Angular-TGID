@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computador",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Macbook",
+      "price": 11999
+    },
+    {
+      "id": 3,
+      "name": "Celular",
+      "price": 4999.99
+    },
+    {
+      "name": "Notebook",
+      "price": 125.99,
+      "id": 4
+    }
+  ]
+}
